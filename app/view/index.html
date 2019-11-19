@@ -7,7 +7,7 @@
 <body>
 <div>
   <div class='center'>
-    <div class='title'>DRIVER DETECTION CLASSIFIER 🐻</div>
+    <div class='title'><b><u>DRIVER DETECTION CLASSIFIER 🐻</u></b></div>
     
     <div class='content'>
       <div class='no-display'>
@@ -18,7 +18,7 @@
                accept='image/*'
                onchange='showPicked(this)'>
       </div>
-      <button class='choose-file-button' type='button' onclick='showPicker()'>Upload Image</button>
+      <button class='choose-file-button' type='button' onclick='showPicker()'>Upload Image to Classify</button>
       <div class='upload-label'>
         <label id='upload-label'>No file chosen</label>
       </div>
@@ -26,7 +26,7 @@
         <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
       </div>
       <div class='analyze'>
-        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze</button>
+        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze Image</button>
       </div>
       <div class='result-label'>
         <label id='result-label'></label>
